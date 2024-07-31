@@ -68,6 +68,10 @@ $bannerImg: "/assets/users/images/hero/banner.png";
 // phần header ben duoi
 .header__logo {
     padding: 15px 0;
+    h1 {
+        font-size: 40px;
+        color: map.get($theme-colors,"tencuahang-color");
+    }
 }
 .header__menu {
     padding: 24px 0;

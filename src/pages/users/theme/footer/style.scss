@@ -6,6 +6,10 @@
     padding-bottom: 0;
     .footer__about {
         margin-bottom: 30px;
+        h1 {
+            font-size: 40px;
+            color: map.get($theme-colors,"tencuahang-color");
+        }
     
         .footer__about__logo  {
             margin-bottom: 15px;
